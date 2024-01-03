@@ -30,7 +30,9 @@
     },
     "devDependencies": {
         "@tailwindcss/typography": "^0.5.8",
+        "@testing-library/react": "^14.1.2",
         "@types/aos": "^3.0.4",
+        "@types/testing-library__react": "^10.2.0",
         "autoprefixer": "^10.4.13",
         "postcss": "^8.4.19",
         "prettier": "^2.8.0",
