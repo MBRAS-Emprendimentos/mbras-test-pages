@@ -10,7 +10,7 @@ import Head from 'next/head';
 export default function App({ Component, pageProps }: AppProps) {
     return (
         <Provider store={store}>
-            <Suspense>
+            <Suspense fallback={<div>Carregando...</div>}>
                 <Head>
                     <title>Plurk – Tailwind CSS Multipurpose Landing Templates</title>
                     <meta charSet="UTF-8" />
